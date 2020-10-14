@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-. navbar{
+.navbar{
   box-sizing: content-box;
 }
 .top-container {
@@ -14,7 +14,7 @@
 }
 
 .topnav {
-  background-color: #black;
+  background-color: black;
   overflow: hidden;
 }
 
