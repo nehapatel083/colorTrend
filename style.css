@@ -3,19 +3,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url("img/bg.jpg")
 }
 .navbar{
   box-sizing: content-box;
+  background-image: url("img/bg.jpg")
 }
 .top-container {
-  background-color: rgb(51, 14, 77);
   position: relative;
   padding-top: 25px;
+  background-image: url("img/bg.jpg")
 }
 
 .topnav {
-  background-color: rgb(51, 14, 77);
   overflow: hidden;
+  background-image: url("img/bg.jpg")
 }
 
 .topnav a {
