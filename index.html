@@ -1,87 +1,62 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <style>
-        .button {
-            border: black;
-            color: white;
-            padding: 24px 60px;
-            width: 40%;
-            height: 20%;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-            margin: 4px 2px;
-            cursor: pointer;
-          }
-        .button1{
-            background-color: rgb(20,20,20);
-            color: white;
-            border: 4px solid gba(236, 234, 234, 0.637);
-        }
-        .button1:hover {
-            background-color:gba(236, 234, 234, 0.637);
-            color: black;
-            border: 4px solid black;
-        }
-          </style>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <meta name="color-scheme" content="light dark">
-        <link rel="stylesheet" href="css/index.css">
-        <title>Color Trend</title>
-    </head>
-    <body>
-        <div class="app">
-            <img src="NewLogo.png" width="250" height="100">
-            <h1>About Us</h1>
-            <h3>This is just a bit of background about us and what our goal is, to create a shopping application that 
-                will let the users pick out outfits based on a colors mood.
-            </h3>
-            <div>
-                <a href="categories.html" class ="button button1">Let's Get Started!</a>
-            </div>
-                
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Color Trend</p>
-            </div>
-        </div>
-        <div class="bottom-container">
-            <a class="footer-link" href="contact.html">Contact Us</a>
-            <p class="copyright">© 2020 Online Garage Sale </p>
-          </div>
-        <script src="cordova.js"></script>
-        <script src="js/index.js"></script>
-    </body>
+<head>
+<style>
+body {
+  background-image: url("img/bg.jpg");
+}
+.btn-group .button {
+  background-color: white;
+  border: 10px solid silver;
+  color: dimgray;
+  padding: 100px 150px;
+  font-family: Jazz LET, fantasy;
+  text-align: center;
+  text-decoration: bold;
+  font-size: 55px;
+  cursor: pointer;
+  width: 250px;
+  display: block;
+}
+.bottom-container {
+  background-color: white;
+  padding: 50px 0 20px;
+  color: lightgray;
+  font-size: 25px;
+}
+.app{
+    text-align: center;
+    font-size: 55px;
+    font-family: fantasy;
+}
+}
+</style>
+</head>
+<body>
+    <div class="app">
+        <a href="index.html">
+    <img src="img/logo.png" width="500" height="500" float>
+        </a>
+    <h1> What mood are you shopping for? </h1>
+    <div class="btn-group" align="center">
+      <a class="button" href="red.html">Dangerous</a>
+      <a class="button" href="red.html">Energetic</a>
+      <a class="button" href="red.html">Loving</a>
+      <a class="button" href="orange.html">Agressive</a>
+      <a class="button" href="yellow.html">Optimistic</a>
+      <a class="button" href="green.html">Fresh</a>
+      <a class="button" href="blue.html">Relaxed</a>
+      <a class="button" href="green.html">Lucky</a>
+      <a class="button" href="blue.html">Chill</a>
+      <a class="button" href="blue.html">Productive</a>
+      <a class="button" href="purple.html">Mysterious</a>
+      <a class="button" href="purple.html">Wise</a>
+      <a class="button" href="black.html">Powerful</a>
+      <a class="button" href="black.html">Sophisticated</a>
+    </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="contact.html">Contact Us</a>
+        <p class="copyright">2020 Color Trend</p>
+    </div>
+</body>
 </html>
