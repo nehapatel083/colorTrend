@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          /*Body Stuff*/
+          body{
+              background-image: url("img/bluebg.jpg");
+            
+          }
+
+        .product-info{
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+          margin-left: 30px;
+          background-color: blue;
+          border-radius: 10px;
+        }
+
+        .product-info h1{
+          font-size: 100px;
+          text-decoration: underline;
+          margin-bottom: 10px;
+          padding: 10px;
+        }
+
+        .product-info h2{
+          font-size: 30px;
+          margin-bottom: 10px;
+          padding: 10px;
+        }
+
+        .product-info h3{
+          font-size: 50px;
+          margin-bottom: 10px;
+          padding: 10px;
+        }
+
+        .product-info h4{
+          font-size: 20px;
+          margin-bottom: 10px;
+          padding: 10px;
+        }
+
+        .product-image{
+          max-width: 80%;
+          display: grid;
+          padding: 10px;
+          float: left;
+          grid-template-columns: 200%;
+        }
+
+        .grid-item{
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 20px;
+          font-size: 30px;
+          text-align: left;
+        }
+
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+
+        .grid-container {
+          display: grid;
+          font-family: Arial, Helvetica, sans-serif;
+          grid-template-columns: 1fr 1fr;
+          /*grid-template-columns: 49% 49%;*/
+          grid-gap: 2px;
+          padding: 10px;
+          margin-left: 2%;
+          margin-top: 10px;
+        }
+        </style>
+        
+    </head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html">
+            <img src="img/logo.png"
+            </a>
+        </div>
+    </header>
+    <section class="grid-container">
+        <img src="img/sweatshirt.jpg">
+    <div class = "product-info">
+        <h1>Men's Sweatshirt</h1>
+        <!--Price will be here for now-->
+        <h3>$55</h3>
+        <h4>
+            A comfy men's sweatshirt.
+        </h4>
+    </div>
+    </section>
+</body>
+</html>
