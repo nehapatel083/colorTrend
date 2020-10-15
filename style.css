@@ -8,13 +8,13 @@
   box-sizing: content-box;
 }
 .top-container {
-  background-color: black;
+  background-color: rgb(30,30,30);
   position: relative;
   padding-top: 25px;
 }
 
 .topnav {
-  background-color: black;
+  background-color: rgb(30,30,30);
   overflow: hidden;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .topnav a.active {
-  background-color: black;
+  background-color: rgb(30,30,30);
   color: white;
 }
 .topnav input[type=text] {
