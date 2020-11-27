@@ -51,3 +51,25 @@
   background-color:white;
   padding: 30px 0 20px;
 }
+
+.search-field {
+  height: 50px;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+.API {
+  width: 300px;
+}
+.search-btn {
+  height: 50px;
+  width: 100px;
+  background: black;
+  border: none;
+  color: white;
+  border-radius: 25px;
+}
+.search-btn:hover{
+  background: gray;
+}
