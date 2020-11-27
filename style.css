@@ -58,6 +58,7 @@
   border: none;
   border-radius: 25px;
   outline: none;
+  align-self : right;
 }
 .API {
   width: 300px;
