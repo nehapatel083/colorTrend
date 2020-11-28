@@ -55,21 +55,27 @@
 .search-field {
   height: 50px;
   padding: 10px;
+  transform: translate(-50%, -50%);
   border: none;
-  border-radius: 25px;
+  border-radius: 40px;
   outline: none;
   align-self : right;
+  background: #2f3640;
+  color: white;
 }
 .API {
   width: 300px;
 }
 .search-btn {
-  height: 50px;
-  width: 100px;
-  background: black;
-  border: none;
-  color: white;
-  border-radius: 25px;
+color:rgb(190, 190, 190);
+float: right;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #2f3640;
 }
 .search-btn:hover{
   background: gray;
